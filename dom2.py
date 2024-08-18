@@ -29,7 +29,7 @@ chrome_options.add_argument('--disable-extensions')
 chrome_options.add_argument('--disable-images')  # Disable loading images to save resources
 chrome_options.add_argument('--blink-settings=imagesEnabled=false')
 chrome_options.page_load_strategy = 'eager'  # Make the driver return control sooner
-service = Service('/home/kali/Desktop/New-Folder/PRO-PLAN/xss-checker-linux/chromedriver')  # Update path to your chromedriver
+service = Service('/path/path/chromedriver')  # Update path to your chromedriver
 
 # Function to test all parameters in a single WebDriver session
 def test_parameters():
